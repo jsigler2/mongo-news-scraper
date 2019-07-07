@@ -87,5 +87,11 @@ $(function() {
         })
     });
 
+    $("#clearArticlesButton").on("click", function(event) {
+        event.preventDefault();
+
+        $('.articleContainer').empty();
+      });
+
 
 })
