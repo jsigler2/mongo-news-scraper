@@ -1,0 +1,140 @@
+body, html {
+    height: 100%;
+    font-family: 'Domine', serif;
+}
+
+body {
+    background-image: url("../images/light-veneer.png");
+    background-repeat: repeat;
+}
+
+
+.titleJumbotron {
+    margin: 0px;
+    background: url("../images/bananas.png");
+    background-repeat: repeat;
+    box-shadow: 0px 10px 10px grey;
+}
+
+.headerDivJumbotron {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 20px;
+}
+
+#headerJumbotron {
+    font-size: 50px;
+    /*border-bottom: 2px solid black;*/
+    align-content: center;
+}
+
+#subheaderJumbotron {
+    font-size: 30px;
+}
+
+#navbar {
+    background-color: #06AEBF;
+	padding: 10px 30px 10px 30px;
+	overflow: hidden;
+}
+
+.nav-item {
+    margin: 0px 20px 0px 20px;
+}
+
+.navLink {
+    color: white;
+    margin-top: 20px !important;
+}
+
+.navLink:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.card-header {
+    background-color: #06AEBF;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.card-body {
+    /*border: 1px solid darkgray;*/
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.headlineLink {
+    text-decoration: none;
+    color: white;
+}
+
+.headlineLink:hover {
+    text-decoration: underline !important;
+    color: white;
+}
+
+p {
+    font-family: 'Domine', serif;
+}
+
+.articleImage {
+    width: 100%;
+}
+
+.buttonColumn {
+    margin-right: 0px;
+}
+
+.saveArticleButton {
+    margin-top: 10px;
+    padding: 10px;
+    
+}
+
+.modal-header {
+    background-image: url("../images/light-veneer.png");
+    color: white;
+    
+}
+
+.buttonRow {
+    margin-top: 10px;
+}
+
+.deleteNoteButton {
+    margin: 10px 0 10px 10px;
+    clear: both;
+}
+
+.saveNoteButton {
+    width: 30%;
+    margin: 0 0 20px 15px;
+}
+
+.noteAlert {
+    padding-left: 15px;
+}
+
+#titleinput,
+#bodyinput {
+    width: 100%;
+}
+
+.articleContainer {
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+.noteCard {
+    display: block;
+    width: 100%;
+    margin: 5px;
+}
+
+.noteCardBody {
+    color: black;
+}
